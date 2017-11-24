@@ -1,0 +1,100 @@
+#container{
+  margin: auto;
+  width: 1060px;
+}
+body {
+  background-color: white;
+}
+#header {
+  width: 1000px;
+  padding: 30px;
+  font-family: "Sans-Serif", Helvetica, Arial;
+  background-color: #80b3ff;
+}
+
+#logo {
+  display:inline-block;
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+#navbar {
+  float: right;
+  font-size: 18pt;
+}
+
+#navbar li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navbar li:hover{
+  text-decoration: underline;
+}
+
+#navbar a{
+  color: black;
+}
+
+#content {
+  width: 1060px;
+  background-color: #f5f5f5;
+  font-family: "Sans-Serif", Helvetica, Arial;
+  height: 334px;
+}
+
+#art {
+  float: left;
+  display: inline-block;
+}
+
+#art img{
+  max-width: 500px;
+
+}
+
+#text {
+  padding-top: 40px;
+  max-width: 40%;
+  text-align: justify;
+  display: inline-block;
+  float: left;
+  padding-left: 7.5%;
+}
+
+#text h1{
+  text-align: center;
+}
+
+#footer {
+  margin-top: -5px;
+  display: inline-block;
+  background-color: #80b3ff;
+  width: 1060px;
+}
+
+#year {
+  float: left;
+  font-weight: bold;
+  padding: 30px;
+}
+
+#navbarbottom {
+  float: right;
+  font-size: 18pt;
+}
+
+#navbarbottom li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+#navbarbottom li:hover{
+  text-decoration: underline;
+}
+
+#navbarbottom a{
+  color: black;
+}
